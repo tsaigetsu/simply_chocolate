@@ -21,11 +21,97 @@ header {
     line-height: 20px;
     /* 111.111% */
     letter-spacing: -0.54px;
-    text-decoration: none;
     justify-content: center;
     text-align: center;
+    margin-left: 32px;
+    display: flex;
 }
+
+.logo a {}
 
 .logo span {
     font-style: italic;
+}
+
+.palces {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 24px;
+    margin-left: 413px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-left: 90px;
+}
+
+.rectangle {
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(https://shuba.life/static/content/thumbs/1905x1016/7/8a/wdsayx---c1905x1016x50px50p-up--4da0fba151a8681655f3d1eaf5fff8a7.jpg), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+    display: flex;
+    width: auto;
+    height: 600px;
+    padding: 0px 40px 40px 40px;
+    margin: 0px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rec-content {
+    margin-top: 381px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rec-content h1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    font-style: normal;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.buttons button {
+    display: flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FD9222;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 20px;
+}
+
+.hwim {
+    padding: 14px 40px;
+    border: 1px solid #FFF;
+    border-radius: 100px;
+    justify-content: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: auto;
+    height: 20px;
 }
